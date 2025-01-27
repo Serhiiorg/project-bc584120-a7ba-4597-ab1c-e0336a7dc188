@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "typography.css";
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+}

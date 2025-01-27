@@ -1,0 +1,65 @@
+.main-container {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-areas:
+    "section-3XtAyp6"
+    "section-7GeiLLi"
+    "section-AljuxAo";
+  grid-template-columns: 1fr;
+}
+.hero-section {
+  grid-area: section-3XtAyp6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  padding: 0 10px;
+  margin: 5px;
+}
+.content-section {
+  grid-area: section-7GeiLLi;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.text-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+.footer-section {
+  grid-area: section-AljuxAo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}

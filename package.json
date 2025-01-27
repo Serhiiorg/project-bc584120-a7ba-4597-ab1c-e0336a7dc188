@@ -1,0 +1,52 @@
+{
+  "name": "starter-project-next-14",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "drizzle-kit generate && tsx lib/db/migrate.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx lib/db/migrate.ts",
+    "stripe:listen": "stripe listen --forward-to localhost:3000/api/webhooks/stripe"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.8",
+    "@auth/core": "^0.37.4",
+    "@auth/drizzle-adapter": "^1.7.4",
+    "@t3-oss/env-nextjs": "^0.11.1",
+    "drizzle-orm": "^0.38.3",
+    "drizzle-zod": "^0.6.1",
+    "nanoid": "^5.0.9",
+    "next-auth": "^4.24.11",
+    "postgres": "^3.4.5",
+    "resend": "^4.0.1",
+    "zod": "^3.24.1",
+    "stripe": "^17.5.0",
+    "@stripe/stripe-js": "^5.4.0",
+    "lucide-react": "^0.469.0",
+    "@auth/pg-adapter": "^1.7.4",
+    "nodemailer": "^6.9.9",
+    "mjml": "^4.14.1",
+    "@phosphor-icons/web": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1",
+    "tsx": "^4.19.2",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.30.1",
+    "@types/nodemailer": "^6.4.14",
+    "@types/mjml": "^4.7.4"
+  }
+}

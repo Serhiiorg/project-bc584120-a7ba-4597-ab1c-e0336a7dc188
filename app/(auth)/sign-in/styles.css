@@ -1,0 +1,39 @@
+
+  .sign-in-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.sign-in-page-container .auth-form-wrapper {
+  width: 27rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-in-page-container .auth-form-wrapper .bottom-part {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #636363;
+  text-align: center;
+}
+
+.bottom-part > a {
+  color: #636363;
+}
+
+.magic-link-info-text {
+  font-size: 0.938rem;
+  color: #636363;
+  width: 100%;
+  max-width: 18rem;
+  margin: 0;
+  padding: 0.313rem 0 0 1.5rem ;
+}
+  
